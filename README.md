@@ -1,6 +1,6 @@
 # PowerShell_Cheatsheet
 
-----
+
 ## Window
 
 
@@ -21,3 +21,5 @@
 |Set-Variable| Set var|
 |Show-Command|Show graphical command options|
 |Measure-Object|Calculates nummeric stuff of object|
+|Get-Command -Module N|Get commands of a module|
+|New-Module -Name math -ScriptBlock {function addiere($a,$b) { $a + $b } }|New module only in memory|
